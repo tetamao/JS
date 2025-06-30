@@ -1,6 +1,9 @@
+// Your First Code Challenge
 // Return a random letter of your name
-myName = "HuaG";
-stringLength = myName.length;
+
+const anyName = "Jonathan";
+// myName = "HuaG";
+stringLength = anyName.length;
 console.log(stringLength);
 lettern = Math.floor(Math.random() * stringLength);
-console.log(myName.charAt(lettern));
+console.log(anyName.charAt(lettern));
